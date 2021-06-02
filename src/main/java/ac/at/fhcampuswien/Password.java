@@ -1,7 +1,9 @@
 package ac.at.fhcampuswien;
 import java.lang.*;
 
-
+/*
+Earbeitet mit Zeljko Sekulic, Petar Vranesevic
+ */
 public class Password {
 
 
@@ -96,5 +98,7 @@ public class Password {
 
     }
 
-
+/*
+END
+ */
 }

@@ -4,6 +4,9 @@ import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
 import static org.junit.jupiter.api.Assertions.*;
 
+/*
+Earbeitet mit Zeljko Sekulic, Petar Vranesevic
+ */
 public class PasswordTest {
 
     /**checks what happens when password is to short**/
@@ -112,3 +115,6 @@ public class PasswordTest {
         assertFalse(password.checkPassword("1234"));
     }
 }
+/*
+END
+ */
