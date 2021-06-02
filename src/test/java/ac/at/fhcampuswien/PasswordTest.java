@@ -34,7 +34,7 @@ public class PasswordTest {
     /**checks what happens when password has upper and lower cases**/
     @Test
     @DisplayName("Upper and Lower case2")
-    public void UpperandLowercase2() {
+    public void UpperandLowercaseTest2() {
         Password password = new Password();
         assertTrue(password.UpperandLowercase("Password"));
     }
@@ -57,14 +57,14 @@ public class PasswordTest {
     /**checks what happens when password has no special chars**/
     @Test
     @DisplayName("Has special char")
-    public void hasspecialchar() {
+    public void hasspecialcharTest() {
         Password password = new Password();
         assertFalse(password.hasspecialchar("Password12"));
     }
     /**checks what happens when password has special chars**/
     @Test
     @DisplayName("Has special char2")
-    public void hasspecialchar2() {
+    public void hasspecialcharTest2() {
         Password password = new Password();
         assertTrue(password.hasspecialchar("Password@"));
 
@@ -80,7 +80,7 @@ public class PasswordTest {
     /**checks what happens when the next numbers are not continues**/
     @Test
     @DisplayName("Next numbers2")
-    public void nextnumbers3() {
+    public void nextnumbersTest2() {
         Password password = new Password();
         assertTrue(password.nextNumbers("Pass12word"));
     }
@@ -88,14 +88,14 @@ public class PasswordTest {
     /**checks what happens when the next numbers are the same**/
     @Test
     @DisplayName("Same next numbers")
-    public void samenextnumbers() {
+    public void samenextnumbersTest() {
         Password password = new Password();
         assertFalse(password.samenextNumbers("Pass1111word"));
     }
     /**checks what happens when the next numbers are not the same**/
     @Test
     @DisplayName("Same next numbers2")
-    public void samenextnumbers2() {
+    public void samenextnumbersTest2() {
         Password password = new Password();
         assertTrue(password.samenextNumbers("Pass111word"));
     }
